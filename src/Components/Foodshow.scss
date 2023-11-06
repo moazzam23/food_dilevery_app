@@ -1,0 +1,261 @@
+.show{
+  z-index: 2;
+  background-color: #EDF0EB;
+    img{
+        height: 17%;
+        width: 90%;
+        margin-left: 3rem;
+      
+    }
+    .input-container {
+        display:  inline-flex;
+            align-items: center;
+            border: 1px solid #18204A;
+            border-radius: 0.5rem;
+            padding: 10px;
+            margin-left: 3rem;
+            background-color: #EDF0EB;
+            margin-right: 1rem;
+            width: 400px;
+            height: 1rem;
+        }
+        
+        /* Style for the input field with icon */
+        .input-with-icon {
+            background-image: url('../Assets/search.png'); /* Replace with the path to your icon image */
+            background-position: 23rem ; /* Adjust the position of the icon */
+            background-repeat: no-repeat;
+            background-size: 20px; /* Adjust the size of the icon */
+            border: none;
+            outline: none;
+            background-color: #EDF0EB;
+            padding-left: 20px; /* Leave space for the icon */
+            width: 100%;
+        }
+    button{
+        padding: 10px 33px;
+        border: solid #EDF0EB ;
+     background-color: #18204A;
+     color: white;
+        border-radius: 0.5rem;
+    }
+    .lable{
+        display: block;
+        margin-left: 1rem;
+        padding-top: 1rem;
+        label{
+            margin-left: 2rem;
+            padding: 5px 5px;
+            border-radius: 15px;
+        
+            justify-content: space-evenly;
+            border: solid #18204A;
+
+        }
+label:hover{
+    background-color: #EDF0EB;
+cursor: pointer;
+color: black;
+}
+    }
+
+
+    hr{
+        
+        border: 1px solid #000; /* Solid border for the line */
+        margin-right: 1rem;
+        margin-left: 1rem;
+        margin-top: 2rem ; /* Margin for spacing (adjust as needed) */
+    }
+    div{
+        margin-top: 1rem;    
+        display: inline-flex;
+    h1{
+        padding-left: 2rem;
+        }
+svg{
+    fill: #18204A;
+    padding-left: 62rem;
+
+}
+.iconp{
+  padding-left: 5rem;
+}
+}
+.line{
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Style for the card row container */
+.card-row {
+    display: flex;
+    justify-content: space-between; /* Distribute cards evenly in the row */
+     /* Adjust the gap between cards as needed */
+    flex-wrap: wrap; /* Allow cards to wrap to the next row if needed */
+  }
+  .foodshow-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Style for individual cards (same styles as before) */
+  .card {
+  
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 10rem;
+    width: 300px;
+    border: 1px solid #ccc;
+  margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+ /* .card1{
+    cursor: pointer;
+    //background-image: url(https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDUzMDJ8MHwxfHNlYXJjaHw2fHxmb29kfGVufDF8fHx8MTYzOTE1MzMzOQ&ixlib=rb-1.2.1&q=80&w=1080);
+    background-position: center;
+    background-size: cover;
+  }*/
+  .card2{
+    background-image: url(https://assets.api.uizard.io/api/cdn/stream/b8bf724d-2ed9-4bb5-a935-cf6b6aac1469.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+  .card3{
+    background-image: url(https://assets.api.uizard.io/api/cdn/stream/61bd4ae2-b313-43e9-b252-56f8f94f8f52.jpg);
+    background-position: center center;
+    background-size: cover;
+  
+  }
+  .card4{
+    background-image: url(https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDUzMDJ8MHwxfHNlYXJjaHw2fHxmb29kfGVufDF8fHx8MTYzOTE1MzMzOQ&ixlib=rb-1.2.1&q=80&w=1080);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .card-label {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    background-color: #ffffff;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .card-heading {
+    font-size: 18px;
+
+    margin-top:8.5rem;
+    margin-left: 10px;
+    background-color: #ffffff;
+    display: inline-flex;
+    color: black;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .card-price {
+    font-size: 18px;
+    background-color: #ffffff;
+    display: inline-flex;
+    flex-direction: row;
+    color: #000000;
+    margin-top: 8.5rem;
+    padding-right: 1rem;
+    padding-left: 15rem;
+    position: absolute;
+    z-index: 1;
+  }
+ /*.card-des{
+   // font-size: 18px;
+  margin-top: 9rem;
+    background-color: #ffffff;
+    color: #000000;
+    height: 30px;
+    padding-bottom: 2rem;
+    display: block;
+    padding-left: 5px;
+ }*/
+  .space{
+  padding-top: 10rem;
+  }
+
+}
+
+
+
+.card-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  z-index: 999; /* Ensure the modal overlay is on top */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-popup {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: absolute;
+  z-index: 999; /* Ensure the pop-up is on top of the cards */
+  width: 40%;
+  max-height: 100%;
+  justify-content: center;
+  top: 50%; /* Position the pop-up vertically in the middle of the screen */
+  left: 50%; /* Position the pop-up horizontally in the middle of the screen */
+  transform: translate(-50%, -50%); /* Center the pop-up */
+.popup-content{
+  img{
+  height:15rem;
+  width: 30rem;
+  margin-right: 10rem;
+}
+h2{
+  text-align: left;
+  margin-top: 2rem;
+font-size: 2rem;
+color: #18204A;}
+label{
+  text-align: left;
+  margin-top: 1.3rem;
+font-size: 1.5rem;
+color: #18204A; 
+}
+p{
+  text-align: left;
+  margin-top: 1rem;
+  padding-left: 1rem;
+font-size: 1.2rem;
+color: #18204A;}
+}
+.pt{
+  display: flex;
+  
+}
+.ppt{
+  justify-content: end;
+  text-align: right;
+  padding-top: 1.5rem;
+  font-size: 1.2rem;
+  margin-left: 15rem;
+}
+}
+
+
+/* ... Your existing styles ... */
+

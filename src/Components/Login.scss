@@ -1,0 +1,301 @@
+//login
+.login-container{
+    width: 430px;
+	height: 520px;
+    background-color: #EDF0EB;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+
+    .loginform{
+        height: 420px;
+	width: 400px;
+	background-color: rgba(255, 255, 255, 0.13);
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;    
+	border-radius: 10px;
+	backdrop-filter: blur(10px);
+	border: 2px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+	padding: 50px 35px;
+       
+    h1{
+padding-top: 1rem;
+text-align: center;
+padding-bottom: 1rem;
+    }   
+    
+    .Lable1{
+        text-align: center;
+        padding-left: 2rem;
+        font-weight: 600;
+       justify-content: center;
+       padding-bottom: 1rem;
+font-size: 1rem;
+
+    }
+    div{
+    margin-left: 1rem;
+        display: block;
+        padding-top: 1rem;
+        margin-left: 1.5rem;
+        button{
+            width: 22rem;
+            text-align: center;
+            font-size: 1rem;
+            height: 40px;
+            display: block;
+            background-color: #EDF0EB;
+            color: white;
+            margin-bottom: 1rem;
+            cursor: pointer;
+            border-radius: 0.5rem;
+        }
+        .b1{
+            background-color: #EDF0EB;
+            color: black;
+
+        }
+        .b2{
+            background-color: black;
+
+        }
+        .b3{
+            background-color: blue;
+        }
+    }
+    .or{
+        display: block;
+        padding-top: 1.2rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        font-weight: 700;
+    }
+    input{
+        display: block;
+        width: 21rem;
+        padding-left: 1rem;
+        height: 30px;
+        border-radius: 0.5rem;
+        margin-left: 1.5rem;
+
+    }
+    .next{
+        margin-top: 1rem;
+        width: 22rem;
+        height: 40px;
+        color: white;
+        font-size: 1.2rem;
+        border-color: r;
+        border-radius: 0.5rem;
+        margin-left: 1.5rem;
+        cursor: pointer;
+        background-color:#18204A
+    }
+}
+}
+
+
+
+.trackimg{
+   height: 20rem;
+width: 90%;
+margin-left: 3rem;
+}
+.track-h{
+    display: flex;
+    height: 8rem;
+    background-color: #EDF0EB;
+    h1{
+        padding-top: 2rem;
+        padding-left: 4rem;
+        font-size: 3rem;
+        color: #18204A;
+    }    
+svg{
+    margin-top: 2rem;
+    margin-left: 60rem;
+    width: 3rem;
+    height: 3rem;
+
+}
+svg:hover{
+    cursor: pointer;
+    border-color: black;
+    fill: black;
+}
+}
+    .track{
+        background-color: #EDF0EB;
+        img{
+            height: 30rem;
+            width: 90%;
+            margin-left: 3rem;
+        }
+        .lb1{
+            margin-top: 3rem;
+            font-size: 3.5rem;
+            font-weight: 600;
+            color: #18204A;
+            text-align: center;
+            display: block;
+            margin-left: 5rem;
+        }   
+    button{
+        width: 19rem;
+height: 2.5rem;
+margin-top: 5rem;
+border-radius: 5px;
+margin-left: 33rem;
+background-color: #18204A;
+color: white;
+font-size: 1.5rem ;
+font-style: italic;
+margin-bottom: 5rem;
+    }
+button:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    background-color: #EDF0EB;
+}
+
+
+    }
+
+
+    //trackmap
+    .track-main{
+        display: flex;
+        background-color: #EDF0EB;
+        .track-map{
+            width: 50%;
+            img{
+                height: 30rem;
+                width: 90%;
+                margin-left: 3rem;
+            }
+            h2{
+                margin-left: 4rem;
+                padding-top: 5rem;
+                margin-bottom: 2rem;
+                font-size: 3rem;
+                    }
+                    hr{
+                        margin-top: 10px;
+                        margin-left: 3rem;
+                    
+                        border: 1px solid black;
+                    }
+                    div{
+                        display: flex;
+                        i{
+                         margin-left: 3rem;
+                         margin-top: 2rem;
+                         border:1px;
+                         width: 2rem;
+                         height: 2rem;
+                         line-height: 2rem;
+                         text-align: center;
+                         border-radius: 50%;
+                         font-weight: 700;
+                    
+                        }
+                        i:hover{
+                            cursor: pointer;
+                            background-color: yellow;
+
+                        }
+                        h3{
+                            padding-left: 1rem;
+                            margin-top: 2rem;
+                            margin-bottom: 1rem;
+                         font-weight: 600;
+                            font-size: 1.3rem;
+                        }
+                        
+                
+                    }
+                    label{
+                    margin-left: 6rem;
+                        margin-bottom: 5rem;
+                        font-size: 1rem;
+                    }
+                    .hi{
+                        margin-bottom: 5rem;
+                    }
+                .line{
+                    margin-top: 2rem;
+                }
+                .i{
+                    margin-left: 5rem;
+                }
+                .reacticon2{
+                    padding-left: 30rem;
+                }
+                
+        }
+        .side-bar{
+                width: 30%;
+                height: 28rem;
+             margin-top: 4rem;
+             margin-left: 10rem;
+             margin-right: 4rem;
+             border: 1px solid;
+             border-radius: 1rem;
+            background-color: #EDF0EB;
+             margin-bottom: 5rem;
+
+        span {
+            display: inline-block;
+            width: 150px; /* Adjust the width and height to control the size of the circle */
+            height: 150px;
+            margin-top: 1rem;
+            margin-left: 8rem;
+            background-color: red; /* You can change the background color to your desired color */
+            border-radius: 50%; /* This sets the border-radius to 50%, creating a circle */
+            text-align: center;
+            line-height: 150px; /* Vertically center text */
+            color: white; 
+            font-size: 1.5rem;
+        }
+        p{
+            text-align: center;
+            font-size: 1.4rem;
+            font-weight: 500;
+            font-weight: bolder;
+            margin-top: 2rem;
+        }
+hr{
+    margin-top: 0.5rem;
+    border: 1px solid;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.para{
+    justify-content: left;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1rem;
+}
+button{
+    height: 3rem;
+    width: 15rem;
+    margin-top:3rem;
+    background-color: blue;
+    border-radius: 1rem;
+    color: white;
+margin-left: 5.5rem;
+    justify-content: center;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #EDF0EB;
+    color: black;
+}
+}
+        
+    }

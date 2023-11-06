@@ -1,0 +1,300 @@
+/*}.header{
+    display: flex;
+    color: black;
+    height: 5rem;
+    width: 100%;
+    background-color: grey;
+
+    h1{
+        display: inline-block;
+        padding-left: 2rem;
+        padding-top: 1.5rem; 
+        padding-right: 45rem;             }
+
+     
+       button{
+       margin-top: 1rem;
+margin-bottom: 1rem;
+align-content: space-evenly;
+     ali   
+}
+.button-login-button{
+    align-items: center;
+    align-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    border-color: white;  
+    border: solid blue;
+    border-radius: 1rem;
+       }
+}*/
+/* Style for the header */
+.header {
+    background-color: #EDF0EB;
+    color: #18204A;
+    padding: 20px;
+cursor: pointer;
+    display: flex;
+    justify-content: space-between; /* Add this to move buttons to the left and right ends */
+    align-items: center; /* Vertically align items in the center */
+}
+
+/* Style for the buttons */
+.button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #18204A;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    border-color: rgb(8, 8, 92);
+    border-radius: 1rem;
+    font-weight: bold;
+    font-family: 'Courier New';
+}
+
+/* Style for the login button */
+.login-button {
+    background-color: #EDF0EB;
+    color: #000000;
+cursor: pointer;
+}
+
+/* Additional style for the button container */
+.button-container {
+    background-color: #EDF0EB;
+    display: flex; /* Make the button container a flex container */
+}
+
+.main{
+    background-color: #EDF0EB;
+    div{
+    display: flex;
+    img{
+  height:16rem;
+  width: 12rem;
+  padding: 4rem;
+    }
+    h1{
+        padding-top: 12rem;
+        font-size: 4rem;
+        padding-left: 2rem;
+    color: rgb(8, 8, 92);
+    }
+    .image1{
+        height:12rem;
+  width: 12rem;
+  padding-top: 12rem;
+  padding-left: 3rem;
+    }
+
+    }
+    .search{
+justify-content: center;
+
+        .input-container {
+    display: flex;
+        align-items: center;
+        border: 1px solid #000000;
+        border-radius: 0.5rem;
+        padding: 10px;
+        background-color: #EDF0EB;
+        margin-right: 1rem;
+        width: 300px;
+        margin-bottom: 5rem;
+        height: 1rem;
+    }
+    
+    /* Style for the input field with icon */
+    .input-with-icon {
+        background-image: url('../Assets/search.png'); /* Replace with the path to your icon image */
+        background-position: 17rem ; /* Adjust the position of the icon */
+        background-repeat: no-repeat;
+        background-size: 20px; /* Adjust the size of the icon */
+        border: none;
+        outline: none;
+        background-color: #EDF0EB;
+        padding-left: 20px; /* Leave space for the icon */
+        width: 100%;
+    }
+button{
+    padding: 5px 25px;
+    border: solid rgb(8, 8, 92) ;
+ background-color: rgb(8, 8, 92);
+ color: white;
+ margin-bottom: 5rem;
+    border-radius: 0.5rem;
+}
+}
+
+}
+
+//work
+.work{
+    background-color: #EDF0EB;
+    hr{
+        border-color:#EDF0EB;
+        border: 1px solid #000; /* Solid border for the line */
+        margin-right: 1rem;
+        margin-left: 1rem;
+        background-color: #EDF0EB;
+        /* Margin for spacing (adjust as needed) */
+    }
+    div{
+        background-color: #EDF0EB;
+        margin-top: 1rem;    
+        display: inline-flex;
+    h1{
+        padding-left: 2rem;
+        }
+svg{
+    fill: rgb(8, 8, 92);
+    padding-left: 67rem;
+
+}}
+.line{
+    border: 1px solid rgb(8, 8, 92); /* Solid border for the line */
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem ; /* Margin for spacing (adjust as needed) */
+}
+.container1 {
+    display: flex;
+   //  border:solid/* Border for the container */
+}
+
+/* Style for the columns */
+.column {
+    flex: 1;
+     justify-content: space-evenly;/* Make each column take up an equal amount of space */
+    display: block;
+     padding: 10px;
+margin-left: 1rem;
+margin-right: 1rem;
+    border: 1px solid #000;
+    border-radius: 1rem; /* Solid border for each column */
+   
+    img{
+        height: 15rem;
+justify-content: center;
+padding-left: 5rem;
+padding-top: 2rem;
+    }
+    h2{
+        margin-top: 2rem;
+      margin-left: 2rem;
+    font-weight: bolder;  
+    }
+    p{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        justify-content: center;
+        text-align: left;
+        line-height: 1.5rem;
+        font-size: 1.1rem;
+        word-spacing: 0.2rem;
+        padding-bottom: 1rem;
+        
+    }
+}
+.sb{
+.line2{
+   margin-top: 3rem;
+   margin-bottom: 1rem;
+}
+.subheading{
+    padding-left: 3rem;
+}
+svg{
+    fill: rgb(8, 8, 92);
+    padding-left: 58rem;
+}   
+}
+}
+
+//rider
+.rider{
+    display: flex;
+    img{
+        width: 45rem;
+        height: 30rem;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column; /* Arrange items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+    
+    h2{
+        padding-top: 5rem;
+        font-weight: bolder;
+font-size: 2.5rem;
+color: rgb(8, 8, 92);
+    }
+    p{
+        padding-top: 2rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+    button{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 2rem;
+        background-color: rgb(8, 8, 92);
+        color: white;
+        cursor: pointer;
+    }
+
+    /* Additional styling for individual elements (optional) */
+    h2, p, button {
+        margin: 10px; /* Add margin for spacing (adjust as needed) */
+    }
+
+
+}
+.partner{
+    display: flex;
+    img{
+        width: 45rem;
+        height: 30rem;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column; /* Arrange items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+    
+    h2{
+        padding-top: 5rem;
+        font-weight: bolder;
+font-size: 2.5rem;
+color: rgb(8, 8, 92);
+    }
+    p{
+        padding-top: 2rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+    button{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 2rem;
+        background-color: rgb(8, 8, 92);
+        color: white;
+        cursor: pointer;
+    }
+
+    /* Additional styling for individual elements (optional) */
+    h2, p, button {
+        margin: 10px; /* Add margin for spacing (adjust as needed) */
+    }
+}
